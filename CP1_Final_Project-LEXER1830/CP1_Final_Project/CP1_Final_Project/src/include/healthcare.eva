@@ -1,0 +1,9 @@
+// File: test_script.eva
+DIGESTION(patient_records, 100);
+patient_name = EYE("Enter patient's name: ");
+name_length = MEASURE(patient_name);
+MOUTH("The length of the patient's name is: ");
+MOUTH(name_length);
+new_patient_record = "Patient: ";
+MITOSIS(new_patient_record, patient_name);
+MOUTH(new_patient_record);
